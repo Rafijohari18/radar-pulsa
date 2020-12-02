@@ -41,7 +41,7 @@
                                 <h5 class="text-white font-size-20">Halaman Administrator</h5>
                                 <p class="text-white-50">Silahkan Login.</p>
                                 <a href="" class="logo logo-admin">
-                                    <img src="{{ asset('asset/temp_backend/images/fav-pasaman.png')}}" style="width:80px;height:80px;" alt="logo">
+                                    <img src="{{  asset('asset/temp_frontend/images/favicon.png') }}" style="width:80px;height:80px;" alt="logo">
                                 </a>
                             </div>
                         </div>

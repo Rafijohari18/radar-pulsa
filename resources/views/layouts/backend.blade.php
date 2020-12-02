@@ -52,10 +52,10 @@
 
                             <a href="" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="{{ asset('asset/temp_backend/images/logo-sm.png')}}" alt="" height="22">
+                                    <img src="{{  asset($logo['value']) }}" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{ asset('asset/temp_backend/images/logo-light.png')}}" alt="" height="18">
+                                    <img src="{{  asset($logo['value']) }}" alt="" height="35">
                                 </span>
                             </a>
                         </div>

@@ -272,8 +272,8 @@
 
 		</footer><!-- Footer end -->
 
-		<a href="https://api.whatsapp.com/send?phone=6282232019067&text=Hallo!%20Saya%20ingin%20mengetahui%20informasi%20lebih%20lanjut" class="scrollwa"><i class="fa fa-whatsapp"></i></a>
-		<a href="https://t.me/RadarPulsa" class="scrolltele"><i class="fa fa-telegram"></i></a>
+		<a href="https://api.whatsapp.com/send?phone=6289684921976&text=Hallo!%20Saya%20ingin%20mengetahui%20informasi%20lebih%20lanjut" target="_blank" class="scrollwa"><i class="fa fa-whatsapp"></i></a>
+		<a href="https://t.me/Ahmadazmi15" class="scrolltele" target="_blank"><i class="fa fa-telegram"></i></a>
 
 
 		<!-- Javascript Files
