@@ -186,7 +186,7 @@
 			<div class="footer-main">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-12 footer-widget footer-about">
+						<div class="col-md-3 col-sm-12 footer-widget footer-about">
 							<h3 class="widget-title">Tentang Kami</h3>
 							<img class="footer-logo" src="{{ asset($logo['value']) }}" style="width:170px;heigth:auto;" />
 							<p>{{ $alamat->value }} </p>
@@ -202,7 +202,7 @@
 							<p><b>Email : </b>{{ $email->value }}</p>
 						</div><!-- Col end -->
 
-						<div class="col-md-4 col-sm-12 footer-widget">
+						<div class="col-md-3 col-sm-12 footer-widget">
 							<h3 class="widget-title">{{ $title_rekening->name }}</h3>
 							<div class="working-hours">
 								 @foreach($rekening as $rek)
@@ -216,7 +216,7 @@
 							</div>
 						</div><!-- Col end -->
 
-						<div class="col-md-4 col-sm-12 footer-widget">
+						<div class="col-md-3 col-sm-12 footer-widget">
 							<h3 class="widget-title">{{ $title_no_center['title'] }}</h3>
 							
 							@foreach($tipe_no_center as $tipe) 
@@ -230,6 +230,15 @@
 							</ul>
 
 							@endforeach
+						
+							
+						</div><!-- Col end -->
+
+						<div class="col-md-3 col-sm-12 footer-widget">
+							<h3 class="widget-title">{{ $title_apk['title'] }}</h3>
+							<a href="{{ $value_apk['title'] }}">
+								<img class="footer-logo" src="{{ asset($value_apk['file']) }}" style="width:170px;heigth:auto;" />
+							</a>
 						
 							
 						</div><!-- Col end -->

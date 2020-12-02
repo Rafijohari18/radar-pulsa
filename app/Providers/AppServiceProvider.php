@@ -80,6 +80,8 @@ class AppServiceProvider extends ServiceProvider
             'tipe_no_center'    => Page::where('parent',29)->get(),
             'title_no_center'   => PageLang::where('id',29)->first(),
             'title_mitra'       => PageLang::where('id',28)->first(),
+            'title_apk'         => PageLang::where('id',42)->first(),
+            'value_apk'         => PageMedia::where('id',5)->first(),
             'media_mitra'       => PageMedia::where('page_id',28)->get(),
             
             'logo'              => Config::where('id',8)->first(),
